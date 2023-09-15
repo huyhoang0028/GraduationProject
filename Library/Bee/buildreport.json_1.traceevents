@@ -1,0 +1,841 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1684240576014082, "dur": 843575, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684240576014328, "dur": 5297, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684240576019628, "dur": 825025, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684240576844656, "dur": 13000, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684240576858501, "dur": 20, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1684240576042863, "dur":1290, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576044162, "dur":129, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1684240576044326, "dur":20, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1684240576044347, "dur":482, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1684240576044851, "dur":663, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576045514, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576827948, "dur":276, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828224, "dur":98, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828322, "dur":67, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828389, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828401, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828403, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828409, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828411, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828416, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828417, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828422, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828424, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828429, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828430, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828434, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828436, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828440, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828442, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828446, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828448, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828452, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828453, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828458, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828459, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828464, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828465, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828471, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828472, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828477, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828478, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828484, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828485, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828491, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828504, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576828520, "dur":2850, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1684240576045160, "dur":429, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684240576045590, "dur":4416, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684240576050008, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1684240576050136, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684240576050204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684240576106370, "dur":1170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1684240576107580, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684240576107624, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684240576107664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684240576108029, "dur":98323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684240576206401, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684240576206453, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684240576206504, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684240576206540, "dur":35394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684240576241987, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684240576242031, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684240576242087, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684240576242095, "dur":40844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684240576282992, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684240576283035, "dur":775, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684240576283823, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684240576283836, "dur":30665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684240576314549, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684240576314590, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684240576314654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684240576314664, "dur":34823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684240576349545, "dur":78934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684240576428481, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684240576428650, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684240576428661, "dur":4975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684240576433694, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684240576433735, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684240576433780, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684240576433789, "dur":104902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684240576538838, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684240576538881, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684240576538938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684240576538946, "dur":229663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684240576768646, "dur":59309, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684240576045078, "dur":465, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684240576045543, "dur":4444, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684240576050007, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1684240576050200, "dur":272, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684240576050479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684240576145964, "dur":3555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1684240576149632, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684240576149694, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684240576149740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684240576149748, "dur":55010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684240576204804, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684240576204841, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684240576204886, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684240576204894, "dur":52692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684240576257644, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684240576257692, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684240576257823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684240576257834, "dur":119570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684240576377450, "dur":1024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684240576378475, "dur":482, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684240576379024, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684240576379035, "dur":13166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684240576392248, "dur":1117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684240576393366, "dur":2724, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684240576396103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684240576396114, "dur":6786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684240576402946, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684240576402986, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684240576403038, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684240576403047, "dur":78397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684240576481486, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684240576481531, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684240576481576, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684240576481584, "dur":195546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684240576677195, "dur":150814, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684240576045321, "dur":318, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684240576045639, "dur":4375, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684240576050015, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1684240576050238, "dur":275, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684240576050520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684240576147611, "dur":2830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1684240576150500, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684240576150556, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684240576150618, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684240576150627, "dur":76580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684240576227259, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684240576227308, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684240576227367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684240576227457, "dur":34902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684240576262412, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684240576262466, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684240576262514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684240576262523, "dur":26568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684240576289143, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684240576289184, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684240576289229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684240576289238, "dur":68992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684240576358292, "dur":252848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684240576611142, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684240576611245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684240576611254, "dur":5392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684240576616725, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets9.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1684240576616776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684240576616785, "dur":5082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets9.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1684240576621924, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684240576621972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684240576622019, "dur":1780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684240576623848, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1684240576623917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684240576623926, "dur":3853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1684240576627833, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684240576627885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684240576627895, "dur":1922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684240576629857, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684240576629917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684240576629927, "dur":2589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684240576632565, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684240576632611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684240576632618, "dur":1807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684240576634475, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1684240576634534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684240576634543, "dur":5114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1684240576639701, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684240576639759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684240576639768, "dur":2047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684240576641868, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1684240576641918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684240576641929, "dur":10461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1684240576652452, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684240576652514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684240576652526, "dur":5738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684240576658303, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1684240576658352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684240576658364, "dur":18865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1684240576677327, "dur":150677, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684240576045218, "dur":394, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684240576045613, "dur":4390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684240576050004, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1684240576050229, "dur":208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684240576050445, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684240576145255, "dur":1560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1684240576146873, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684240576146921, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684240576146972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684240576147015, "dur":72468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684240576219530, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684240576219569, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684240576219622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684240576219630, "dur":31840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684240576251516, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684240576251555, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684240576251609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684240576251618, "dur":33622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684240576285297, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684240576285349, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684240576285401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684240576285411, "dur":40024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684240576325496, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684240576325543, "dur":270, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684240576325824, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684240576325836, "dur":59928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684240576385804, "dur":37824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684240576423629, "dur":551, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684240576424191, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684240576424238, "dur":2580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684240576426859, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684240576426896, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684240576426935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684240576426943, "dur":145583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684240576572571, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Facebook.Unity.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684240576572615, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684240576572663, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684240576572671, "dur":108298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Facebook.Unity.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684240576681027, "dur":146947, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576045150, "dur":419, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576045569, "dur":4420, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576050004, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1684240576050172, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576050274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576115451, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1684240576116694, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684240576116746, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576116792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576116801, "dur":76309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684240576193173, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684240576193214, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576193262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576193271, "dur":57670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684240576250995, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684240576251039, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576251087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576251095, "dur":44732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684240576295880, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684240576295932, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576295992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576296001, "dur":30485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684240576326543, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.Advertisements.Unsupported.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684240576326588, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576326685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576326694, "dur":40335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.Advertisements.Unsupported.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684240576367076, "dur":43465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684240576410542, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576410656, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576410666, "dur":1786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684240576412505, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684240576412545, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576412591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576412600, "dur":193371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684240576606019, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/StreamingAssets/map_7.tmx" }}
+,{ "pid":12345, "tid":5, "ts":1684240576606063, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576606109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576606122, "dur":1980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/StreamingAssets/map_7.tmx" }}
+,{ "pid":12345, "tid":5, "ts":1684240576608160, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/StreamingAssets/map_5.tmx" }}
+,{ "pid":12345, "tid":5, "ts":1684240576608206, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576608251, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576608260, "dur":3289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/StreamingAssets/map_5.tmx" }}
+,{ "pid":12345, "tid":5, "ts":1684240576611600, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/StreamingAssets/map_3.tmx" }}
+,{ "pid":12345, "tid":5, "ts":1684240576611633, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576611674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576611683, "dur":2897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/StreamingAssets/map_3.tmx" }}
+,{ "pid":12345, "tid":5, "ts":1684240576614621, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/StreamingAssets/map_10.tmx" }}
+,{ "pid":12345, "tid":5, "ts":1684240576614673, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576614727, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576614738, "dur":1433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/StreamingAssets/map_10.tmx" }}
+,{ "pid":12345, "tid":5, "ts":1684240576616212, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/StreamingAssets/map.tsx" }}
+,{ "pid":12345, "tid":5, "ts":1684240576616249, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576616285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576616294, "dur":1598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/StreamingAssets/map.tsx" }}
+,{ "pid":12345, "tid":5, "ts":1684240576617942, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684240576617997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576618006, "dur":8268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684240576626324, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684240576626376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576626384, "dur":3534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684240576629960, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684240576630000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576630005, "dur":2859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684240576632921, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684240576632968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576632974, "dur":6818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684240576639825, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684240576639863, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576639867, "dur":12824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684240576652732, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1684240576652894, "dur":3625, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576656532, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576656544, "dur":2139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1684240576658722, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684240576658769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576658777, "dur":4826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684240576663648, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/level6" }}
+,{ "pid":12345, "tid":5, "ts":1684240576663691, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576663699, "dur":5641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/level6" }}
+,{ "pid":12345, "tid":5, "ts":1684240576669391, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/level10" }}
+,{ "pid":12345, "tid":5, "ts":1684240576669439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684240576669446, "dur":5440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/level10" }}
+,{ "pid":12345, "tid":5, "ts":1684240576674961, "dur":152984, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684240576045147, "dur":414, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684240576045561, "dur":4448, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684240576050011, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1684240576050093, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684240576050173, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684240576051782, "dur":2165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1684240576053995, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1684240576054045, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684240576054099, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684240576054109, "dur":1501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1684240576055672, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684240576055720, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684240576055767, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684240576055774, "dur":50755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684240576106567, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1684240576106605, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684240576106650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684240576107231, "dur":4611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1684240576111886, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684240576111943, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684240576111980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684240576111987, "dur":50309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684240576162348, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684240576162391, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684240576162445, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684240576162455, "dur":161716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684240576324234, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684240576324278, "dur":476, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684240576324769, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684240576324782, "dur":145627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684240576470453, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684240576470493, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684240576470542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684240576470550, "dur":41597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684240576512189, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684240576512227, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684240576512272, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684240576512279, "dur":57620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684240576569943, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Facebook.Unity.IOS.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684240576569991, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684240576570080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684240576570088, "dur":2548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Facebook.Unity.IOS.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684240576572673, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Facebook.Unity.Arcade.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684240576572716, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684240576572750, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684240576572754, "dur":2748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Facebook.Unity.Arcade.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684240576575548, "dur":150765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684240576726322, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684240576726332, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684240576727532, "dur":100447, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576045164, "dur":431, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576045595, "dur":4403, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576050009, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1684240576050263, "dur":279, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576050581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576051810, "dur":2129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1684240576053978, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1684240576054017, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576054048, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576054055, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1684240576055195, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684240576055251, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576055297, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576055371, "dur":7584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684240576063002, "dur":43870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon.exe" }}
+,{ "pid":12345, "tid":7, "ts":1684240576106873, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576106967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576106973, "dur":2574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon.exe" }}
+,{ "pid":12345, "tid":7, "ts":1684240576109625, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684240576109686, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576109743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576109752, "dur":38134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684240576147935, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684240576147976, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576148021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576148030, "dur":93091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684240576241184, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684240576241228, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576241281, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576241292, "dur":45060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684240576286396, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684240576286431, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576286529, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576286540, "dur":37180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684240576323781, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684240576323827, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576323977, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576323988, "dur":54348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684240576378383, "dur":50745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684240576429130, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576429394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576429412, "dur":4509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684240576434030, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684240576434078, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576434132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576434141, "dur":70136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684240576504331, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684240576504367, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576504414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576504422, "dur":155787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684240576660270, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/level8" }}
+,{ "pid":12345, "tid":7, "ts":1684240576660318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576660325, "dur":7540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/level8" }}
+,{ "pid":12345, "tid":7, "ts":1684240576668018, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1684240576668079, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576668091, "dur":5139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1684240576673293, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1684240576673356, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684240576673369, "dur":4087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1684240576677514, "dur":150479, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684240576045071, "dur":465, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684240576045536, "dur":4449, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684240576050010, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1684240576050203, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684240576050417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684240576143772, "dur":2321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1684240576146139, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684240576146190, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684240576146243, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684240576146252, "dur":50069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684240576196365, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684240576196402, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684240576196452, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684240576196460, "dur":58766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684240576255267, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684240576255306, "dur":306, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684240576255728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684240576255741, "dur":33457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684240576289241, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684240576289281, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684240576289324, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684240576289328, "dur":47791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684240576337166, "dur":119100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684240576456268, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684240576456356, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684240576456365, "dur":1443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684240576457856, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684240576457895, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684240576457941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684240576457949, "dur":224165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684240576682162, "dur":145779, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684240576045254, "dur":379, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684240576045633, "dur":4362, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684240576050009, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1684240576050229, "dur":276, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684240576050512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684240576146758, "dur":2368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1684240576149289, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684240576149433, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684240576149536, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684240576149592, "dur":41048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684240576190688, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684240576190726, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684240576190770, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684240576190777, "dur":30858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684240576221691, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684240576221729, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684240576221780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684240576221789, "dur":64428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684240576286279, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684240576286323, "dur":367, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684240576286696, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684240576286705, "dur":75780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684240576362536, "dur":1089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684240576363626, "dur":430, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684240576364116, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684240576364131, "dur":2495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684240576366678, "dur":31213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684240576397892, "dur":972, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684240576398915, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684240576398932, "dur":4349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684240576403321, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684240576403359, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684240576403397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684240576403404, "dur":100010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684240576503462, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684240576503501, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684240576503569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684240576503577, "dur":159859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684240576663496, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/level7" }}
+,{ "pid":12345, "tid":9, "ts":1684240576663560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684240576663741, "dur":6211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/level7" }}
+,{ "pid":12345, "tid":9, "ts":1684240576670008, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1684240576670065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684240576670075, "dur":5616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1684240576675749, "dur":152192, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684240576045371, "dur":275, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684240576045646, "dur":4344, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684240576050007, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1684240576050175, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684240576050353, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684240576125015, "dur":1241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1684240576126307, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684240576126380, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684240576126427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684240576126435, "dur":50518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684240576177083, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684240576177138, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684240576177193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684240576177206, "dur":52383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684240576229636, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684240576229684, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684240576229737, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684240576229747, "dur":34770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684240576264568, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684240576264607, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684240576264654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684240576264667, "dur":37316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684240576302037, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684240576302093, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684240576302152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684240576302162, "dur":37749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684240576339959, "dur":114444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684240576454403, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684240576454463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684240576454469, "dur":2068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684240576456581, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684240576456618, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684240576456813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684240576456821, "dur":256171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684240576713027, "dur":114939, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684240576045412, "dur":242, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684240576045655, "dur":4371, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684240576050027, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1684240576050133, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684240576050186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684240576051853, "dur":2141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1684240576054049, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684240576054107, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684240576054150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684240576054431, "dur":1546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684240576056016, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1684240576056062, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684240576056218, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684240576056226, "dur":50443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1684240576106749, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1684240576106820, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684240576106891, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684240576107331, "dur":1814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1684240576109206, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684240576109266, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684240576109308, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684240576109317, "dur":22513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684240576131868, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684240576131906, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684240576131944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684240576131950, "dur":45883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684240576177883, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684240576177922, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684240576177969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684240576177980, "dur":123086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684240576301121, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684240576301175, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684240576301227, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684240576301238, "dur":33998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684240576335289, "dur":49643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684240576384932, "dur":375, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684240576385316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684240576385325, "dur":15353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684240576400728, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684240576400769, "dur":542, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684240576401323, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684240576401336, "dur":288592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684240576689960, "dur":138023, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684240576045456, "dur":211, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684240576045667, "dur":4319, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684240576050005, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1684240576050152, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684240576050226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684240576107505, "dur":1497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1684240576109060, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684240576109118, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684240576109213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684240576109262, "dur":19343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684240576128654, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684240576128715, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684240576128766, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684240576128774, "dur":121757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684240576250594, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684240576250667, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684240576250738, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684240576250747, "dur":60751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684240576311550, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684240576311594, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684240576311645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684240576311695, "dur":62679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684240576374415, "dur":3680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684240576378096, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684240576378170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684240576378180, "dur":5173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684240576383397, "dur":1166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684240576384564, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684240576384758, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684240576384769, "dur":15597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684240576400420, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684240576400463, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684240576400515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684240576400524, "dur":99166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684240576499734, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684240576499775, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684240576499823, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684240576499830, "dur":158341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684240576658222, "dur":1841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1684240576660063, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684240576660207, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684240576660221, "dur":4988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1684240576665262, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/level5" }}
+,{ "pid":12345, "tid":12, "ts":1684240576665323, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684240576665341, "dur":5553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/level5" }}
+,{ "pid":12345, "tid":12, "ts":1684240576670941, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1684240576670995, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684240576671002, "dur":6004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1684240576677060, "dur":150877, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576045509, "dur":7, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576045516, "dur":4460, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576050009, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":13, "ts":1684240576050010, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576050207, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/app.info" }}
+,{ "pid":12345, "tid":13, "ts":1684240576050211, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576050381, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576133487, "dur":1733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/app.info" }}
+,{ "pid":12345, "tid":13, "ts":1684240576135226, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684240576135280, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576135367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576135376, "dur":40779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684240576176220, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684240576176275, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576176323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576176332, "dur":41044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684240576217430, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684240576217495, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576217563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576217572, "dur":38296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684240576255915, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684240576255953, "dur":355, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576256319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576256330, "dur":50269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684240576306650, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684240576306701, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576306752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576306761, "dur":58632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684240576365445, "dur":56777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684240576422223, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576422314, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576422324, "dur":3577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684240576425948, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684240576425985, "dur":328, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576426324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576426335, "dur":159809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684240576586184, "dur":1087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684240576587273, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576587457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576587467, "dur":7166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684240576594685, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":13, "ts":1684240576594844, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576594905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576596154, "dur":1971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":13, "ts":1684240576598189, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/StreamingAssets/Off.tsx" }}
+,{ "pid":12345, "tid":13, "ts":1684240576598227, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576598304, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576598348, "dur":2529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/StreamingAssets/Off.tsx" }}
+,{ "pid":12345, "tid":13, "ts":1684240576600917, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/StreamingAssets/map_9.tmx" }}
+,{ "pid":12345, "tid":13, "ts":1684240576600955, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576600997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576601006, "dur":2476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/StreamingAssets/map_9.tmx" }}
+,{ "pid":12345, "tid":13, "ts":1684240576603524, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/StreamingAssets/map_8.tmx" }}
+,{ "pid":12345, "tid":13, "ts":1684240576603557, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576603596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576603605, "dur":2724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/StreamingAssets/map_8.tmx" }}
+,{ "pid":12345, "tid":13, "ts":1684240576606376, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/StreamingAssets/map_6.tmx" }}
+,{ "pid":12345, "tid":13, "ts":1684240576606416, "dur":824, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576607253, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576607269, "dur":2004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/StreamingAssets/map_6.tmx" }}
+,{ "pid":12345, "tid":13, "ts":1684240576609318, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/StreamingAssets/map_4.tmx" }}
+,{ "pid":12345, "tid":13, "ts":1684240576609356, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576609393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576609409, "dur":4097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/StreamingAssets/map_4.tmx" }}
+,{ "pid":12345, "tid":13, "ts":1684240576613555, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/StreamingAssets/map_2.tmx" }}
+,{ "pid":12345, "tid":13, "ts":1684240576613590, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576613633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576613642, "dur":1378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/StreamingAssets/map_2.tmx" }}
+,{ "pid":12345, "tid":13, "ts":1684240576615060, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/StreamingAssets/map_1.tmx" }}
+,{ "pid":12345, "tid":13, "ts":1684240576615097, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576615354, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576615366, "dur":917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/StreamingAssets/map_1.tmx" }}
+,{ "pid":12345, "tid":13, "ts":1684240576616321, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":13, "ts":1684240576616379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576616424, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":13, "ts":1684240576618008, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets8.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1684240576618051, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576618055, "dur":8024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets8.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1684240576626149, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":13, "ts":1684240576626207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576626218, "dur":1864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":13, "ts":1684240576628126, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1684240576628175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576628184, "dur":4340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1684240576632579, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1684240576632624, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576632629, "dur":2265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1684240576634949, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":13, "ts":1684240576635042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576635051, "dur":4746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":13, "ts":1684240576639833, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":13, "ts":1684240576639872, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576639877, "dur":3875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":13, "ts":1684240576643809, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1684240576643903, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576643925, "dur":16135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1684240576660110, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/level9" }}
+,{ "pid":12345, "tid":13, "ts":1684240576660547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576660561, "dur":6312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/level9" }}
+,{ "pid":12345, "tid":13, "ts":1684240576666939, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/level4" }}
+,{ "pid":12345, "tid":13, "ts":1684240576666991, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576667014, "dur":3597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/level4" }}
+,{ "pid":12345, "tid":13, "ts":1684240576670666, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/level0" }}
+,{ "pid":12345, "tid":13, "ts":1684240576670943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684240576670951, "dur":5339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/level0" }}
+,{ "pid":12345, "tid":13, "ts":1684240576676341, "dur":151599, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684240576045646, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684240576045647, "dur":4334, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684240576050006, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1684240576050178, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684240576050313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684240576124406, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1684240576125740, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1684240576125793, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684240576125836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684240576125844, "dur":54680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1684240576180580, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1684240576180641, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684240576180729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684240576180738, "dur":61126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1684240576241917, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1684240576241968, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684240576242021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684240576242030, "dur":60437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1684240576302518, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1684240576302561, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684240576302635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684240576302647, "dur":39719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1684240576342416, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1684240576342461, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684240576342509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684240576342518, "dur":89238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1684240576431797, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":14, "ts":1684240576431835, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684240576431874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684240576431879, "dur":114320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":14, "ts":1684240576546249, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/FacebookNamedPipeClient.dll" }}
+,{ "pid":12345, "tid":14, "ts":1684240576546289, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684240576546407, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684240576546417, "dur":122673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/FacebookNamedPipeClient.dll" }}
+,{ "pid":12345, "tid":14, "ts":1684240576669185, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/level2" }}
+,{ "pid":12345, "tid":14, "ts":1684240576669253, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684240576669267, "dur":5285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/level2" }}
+,{ "pid":12345, "tid":14, "ts":1684240576674606, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/boot.config" }}
+,{ "pid":12345, "tid":14, "ts":1684240576674756, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684240576674810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684240576674818, "dur":3760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/boot.config" }}
+,{ "pid":12345, "tid":14, "ts":1684240576678630, "dur":149359, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1684240576045703, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1684240576045704, "dur":4291, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1684240576050006, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1684240576050196, "dur":217, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1684240576050416, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1684240576134051, "dur":1686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1684240576135785, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1684240576135836, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1684240576135979, "dur":24, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1684240576136013, "dur":28855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1684240576164994, "dur":156565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":15, "ts":1684240576321560, "dur":332, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1684240576321902, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1684240576321913, "dur":4907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":15, "ts":1684240576330281, "dur":462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1684240576330745, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1684240576330869, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1684240576330881, "dur":38123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1684240576369054, "dur":1084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":15, "ts":1684240576370139, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1684240576370255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1684240576370265, "dur":3922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":15, "ts":1684240576374237, "dur":78296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":15, "ts":1684240576452535, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1684240576452633, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1684240576452642, "dur":1626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":15, "ts":1684240576454316, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":15, "ts":1684240576454356, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1684240576454403, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1684240576454411, "dur":231384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":15, "ts":1684240576685848, "dur":142112, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684240576045779, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684240576045780, "dur":4222, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684240576050011, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1684240576050179, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684240576050303, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684240576115978, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1684240576117188, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1684240576117228, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684240576117260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684240576117292, "dur":23362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1684240576140706, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1684240576140747, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684240576140790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684240576140797, "dur":35941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1684240576176803, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1684240576176849, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684240576176904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684240576176913, "dur":46580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1684240576224977, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1684240576225098, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684240576225164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684240576225183, "dur":30023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1684240576255259, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1684240576255301, "dur":419, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684240576255728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684240576255739, "dur":43962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1684240576299755, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1684240576299802, "dur":291, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684240576300134, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684240576300148, "dur":131593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1684240576431786, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":16, "ts":1684240576431825, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684240576431868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684240576431876, "dur":101182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":16, "ts":1684240576533103, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":16, "ts":1684240576533142, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684240576533194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684240576533204, "dur":294663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/BuildAll/Overcome Dungeon_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":16, "ts":1684240576827900, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":16, "ts":1684240576827902, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684240576833281, "dur":2453, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1684240576858787, "dur": 1291, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684240576858469, "dur": 1682, "ph": "X", "name": "Write chrome-trace events", "args": {} },
